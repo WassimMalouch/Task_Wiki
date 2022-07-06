@@ -1,74 +1,114 @@
-
-body{
-    margin: 0;
-    padding: 0px 200px 0px 200px;
-    height: auto;
-}
-
-section {
-display: flex;
-height: 100%;
-
-}
-
-aside{
-
-    height: 100%;
-    flex:36%;
-    margin-top: 0;
-    padding-top: 0;
-    background-color: #043442;
+body {
+    background-color:#234E70;
+    min-height: 100vh;
     box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: cursive;   }
+  
+    header {
+    
+    margin:0px 0px 100px 0px;
+  }
+  nav {
+    background-color:#FBF8BE ;
+  }
 
-}
+  nav ul  {
+  list-style-type:none;	
 
-article{
-    padding:13px;
-    margin-top: 0;
-    padding-top: 0;
-    height: 100%;
-flex:64%;
-background-color: #e5e7e7;
-box-sizing: border-box;
-
-
-}
-footer {
-    clear: both;			
-}
-
-#pp{
-    margin: 20px;
-    width:190px ;
-    height:200px ;
-}
-
-.data {
-    font-size: 10px;
-    text-align: center;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding:5px;
+	
+    
+  }
+  nav ul li {
     margin: 15px;
-    color: #e5e7e7;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color:#234E70;
+  }
+
+  section{
+   width: 100%;
+   display: flex;
+  }
+  article{
+    padding: 30px;
+    flex:70%;
+    margin-right:20px;
+    margin-left: 20px;
+  }
+
+
+  aside{
+    flex:29%
+
+  }
+
+  img{
+    width: 300px;
+    height: 300px;
+  }
+
+  footer{
+    text-align: center;
+    height: 30px; 
+    margin-top:auto; 
+    margin-bottom: 0;
+
+    
 }
-.title{
-    font-size: 18px;
-    color:teal;
-    text-align: center  ;
+
+table{
+  background-color: #FBF8BE;
+  margin: 10px;
+  padding: 10px;}
+
+table ,tr,th,td {
+  border: 1px solid;
+  border-color: #234E70;
+  color: #234E70;
 }
-H3{
-    margin-inline-start: 40px;
-    font-size: 30px;
-    color:teal ;
+  
+
+p{
+  color: azure;
 }
-h6{
-    color: black;
-    margin-inline-start: 40px;
+
+
+#name{
+  color:#FBF8BE ;
+  text-align: center;
 
 }
-article .title{
-    font-size: 18px;
-    color:#043442;
-    text-align: center  ;
+
+#comment{
+   display: flexbox;
 }
-.u_title{
-    color:teal;
+input{
+  margin: 10px;
+}
+
+#star{
+  width: 17px; ;
+  height: 17px; ;
+}
+
+#delim{
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+  color: #FBF8BE;
+}
+
+form label{
+  color:azure;
+  padding: 10px;
+  margin-top: 100px;
 }
